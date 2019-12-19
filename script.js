@@ -1,7 +1,8 @@
-list_colors = ['red', 'green', 'blue', 'yellow', 'white', 'orange', 'purple', 'whitespace', 'pink', 'brown', 'gray', 'crimson', 'gold',
-    'lime', 'springgreen', 'darkcyan', 'aqua', 'navy', 'orangered']
+list_colors = ['red', 'green', 'blue', 'yellow', 'white', 'orange', 'purple', 'whitespace', 'pink', 
+    'brown', 'gray', 'crimson', 'gold', 'lime', 'springgreen', 'darkcyan', 'aqua', 'navy', 'orangered']
 list_text = ['Developers!', 'Web-development', 'JavaScript', 'PHP', 'WordPress',
-    'while(true){...}', 'Backend', 'Nice try', 'git push', 'Fronted', 'Love coding', ]
+    'while(true){...}', 'Backend', 'Nice try', 'git push', 'Fronted', 'Love coding', 'databases', 
+    'HTML5', 'CSS3', 'phpMyAdmin', 'MySQL', 'Python', 'Django', 'SQLite3']
 
 len_colors = list_colors.length;
 len_text = list_text.length;
@@ -173,25 +174,25 @@ $(document).ready(function () {
         $("#random-text").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(500).show('slow')
+        }).hide().show('slow')
 
         $("#random-text1").text(random_text1).css({
             "color": random_color1, "left": random_width1,
             "top": random_height1, "font-size": random_size1
-        }).hide().delay(800).show('slow')
+        }).hide().show('slow')
         $("#random-text2").text(random_text2).css({
             "color": random_color2, "left": random_width2,
             "top": random_height2, "font-size": random_size2
-        }).hide().delay(1300).show('slow')
+        }).hide().show('slow')
 
         $("#random-text3").text(random_text3).css({
             "color": random_color3, "left": random_width3,
             "top": random_height3, "font-size": random_size3
-        }).hide().delay(1500).show('slow')
+        }).hide().show('slow')
         $("#random-text4").text(random_text4).css({
             "color": random_color4, "left": random_width4,
             "top": random_height4, "font-size": random_size4
-        }).hide().delay(1800).show('slow')
+        }).hide().show('slow')
 
         $("#random-text5").text(random_text5).css({
             "color": random_color5, "left": random_width5,
@@ -209,31 +210,28 @@ $(document).ready(function () {
         $("#random-text8").text(random_text8).css({
             "color": random_color8, "left": random_width8,
             "top": random_height8, "font-size": random_size8
-        }).hide().delay(2000).show('slow')
+        }).hide().delay(100).show('slow')
 
         $("#random-text9").text(random_text9).css({
             "color": random_color9, "left": random_width9,
             "top": random_height9, "font-size": random_size9
-        }).hide().delay(2200).show('slow')
+        }).hide().delay(100).show('slow')
         $("#random-text10").text(random_text10).css({
             "color": random_color10, "left": random_width10,
             "top": random_height10, "font-size": random_size10
-        }).hide().delay(2500).show('slow')
+        }).hide().delay(100).show('slow')
         $("#random-text11").text(random_text11).css({
             "color": random_color11, "left": random_width11,
             "top": random_height11, "font-size": random_size11
-        }).hide().delay(2800).show('slow')
+        }).hide().delay(100).show('slow')
         $("#random-text12").text(random_text12).css({
             "color": random_color12, "left": random_width12,
             "top": random_height12, "font-size": random_size12
-        }).hide().delay(3000).show('slow')
-
-
-        
+        }).hide().delay(100).show('slow')
 
     };
 
 
-    setInterval(gorandom, 4500);
+    setInterval(gorandom, 1500);
 
 });
