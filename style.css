@@ -1,0 +1,91 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-section {
+    padding-top: 5em;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 1;
+}
+
+p {
+    color: white;
+    z-index: 1100;
+}
+
+.left-block {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-size: 48px;
+    font-variant: small-caps;
+}
+
+.left-block button {
+    font-size: 24px;
+}
+
+#random-text {
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+}
+
+#random-text1 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text2 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text3 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text4 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text5 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text6 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text7 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text8 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+#random-text9 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+}
