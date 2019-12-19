@@ -20,13 +20,10 @@ $(document).ready(function () {
         random_color2 = list_colors[Math.floor(Math.random() * (len_colors))];
         random_color3 = list_colors[Math.floor(Math.random() * (len_colors))];
 
-
         random_text = list_text[Math.floor(Math.random() * (len_text))];
         random_text1 = list_text[Math.floor(Math.random() * (len_text))];
         random_text2 = list_text[Math.floor(Math.random() * (len_text))];
         random_text3 = list_text[Math.floor(Math.random() * (len_text))];
-
-
 
         // RANDOM HEIGHT
         random_height = (Math.floor(Math.random(h) * 1000) / 2) + 100 + "px"
@@ -47,19 +44,20 @@ $(document).ready(function () {
         }
 
         // RANDOM WIDTH 
-        random_width = Math.floor(Math.random(w) * 1100) + "px"
-        random_width1 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width2 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width3 = Math.floor(Math.random(w) * 1100) + "px"
+        random_width = Math.floor(Math.random(w) * 1200) + "px"
+        random_width1 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width2 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width3 = Math.floor(Math.random(w) * 1200) + "px"
 
-        random_size = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size1 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size2 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size3 = Math.floor(Math.random() * 4) + 1 + "em"
-
-
+        random_size = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size1 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size2 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size3 = Math.floor(Math.random() * 2) + 1 + "em"
 
 
+        // BORDER FOR TEXT DON'T TOUCH OTHER ELEMENTS
+
+        len_randoms = [random_width1, random_width1, random_width3]
 
         $("#random-text").text(random_text).css({
             "color": random_color, "left": random_width,
@@ -126,17 +124,17 @@ $(document).ready(function () {
         
         // RANDOM WIDTH 
 
-        random_width4 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width5 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width6 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width7 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width8 = Math.floor(Math.random(w) * 1100) + "px"
+        random_width4 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width5 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width6 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width7 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width8 = Math.floor(Math.random(w) * 1200) + "px"
 
-        random_size4 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size5 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size6 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size7 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size8 = Math.floor(Math.random() * 4) + 1 + "em"
+        random_size4 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size5 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size6 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size7 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size8 = Math.floor(Math.random() * 2) + 1 + "em"
 
         $("#random-text4").text(random_text4).css({
             "color": random_color4, "left": random_width4,
@@ -203,18 +201,18 @@ $(document).ready(function () {
         
         // RANDOM WIDTH 
 
-        random_width9 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width10 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width11 = Math.floor(Math.random(w) * 1100) + "px"
-        random_width12 = Math.floor(Math.random(w) * 1100) + "px"
+        random_width9 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width10 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width11 = Math.floor(Math.random(w) * 1200) + "px"
+        random_width12 = Math.floor(Math.random(w) * 1200) + "px"
         
 
 
 
-        random_size9 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size10 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size11 = Math.floor(Math.random() * 4) + 1 + "em"
-        random_size12 = Math.floor(Math.random() * 4) + 1 + "em"
+        random_size9 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size10 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size11 = Math.floor(Math.random() * 2) + 1 + "em"
+        random_size12 = Math.floor(Math.random() * 2) + 1 + "em"
 
         //
 
