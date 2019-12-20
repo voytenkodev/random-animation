@@ -14,7 +14,7 @@ function go() {
     random_width = Math.floor(Math.random(w) * 1300) + "px"
     random_height = (Math.floor(Math.random(h) * 1000) / 2) + 100 + "px"
     if (random_height > h - 200) {
-        random_height = random_height9 / 2;
+        random_height = random_height / 2;
     }
     random_size = Math.floor(Math.random() * 4) + 1 + "em"
 }
