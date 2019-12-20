@@ -11,8 +11,8 @@ var w = $('#section-animation').width();
 function go() {
     random_text = list_text[Math.floor(Math.random() * (len_text) + 1)];
     random_color = list_colors[Math.floor(Math.random() * (len_colors))];
-    random_width = Math.floor(Math.random(w) * 1300) + "px"
-    random_height = (Math.floor(Math.random(h) * 1000) / 2) + 100 + "px"
+    random_width = Math.floor(Math.random(w) * 1050) + 50 + "px"
+    random_height = (Math.floor(Math.random(h) * 1100) / 2) + 50 + "px"
     if (random_height > h - 200) {
         random_height = random_height / 2;
     }
@@ -24,7 +24,7 @@ $(document).ready(function () {
         $("#random-text").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom, 1200)
     function gorandom1() {
@@ -32,7 +32,7 @@ $(document).ready(function () {
         $("#random-text1").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom1, 1400)
     function gorandom2() {
@@ -40,7 +40,7 @@ $(document).ready(function () {
         $("#random-text2").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom2, 1600)
     function gorandom3() {
@@ -48,7 +48,7 @@ $(document).ready(function () {
         $("#random-text3").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom3, 1800)
     function gorandom4() {
@@ -56,7 +56,7 @@ $(document).ready(function () {
         $("#random-text4").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom4, 2000)
     function gorandom5() {
@@ -64,7 +64,7 @@ $(document).ready(function () {
         $("#random-text5").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom5, 2200)
     function gorandom6() {
@@ -72,7 +72,7 @@ $(document).ready(function () {
         $("#random-text6").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom6, 2400)
     function gorandom7() {
@@ -80,7 +80,7 @@ $(document).ready(function () {
         $("#random-text7").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom7, 2500)
     function gorandom8() {
@@ -88,7 +88,7 @@ $(document).ready(function () {
         $("#random-text8").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom8, 2600)
     function gorandom9() {
@@ -96,7 +96,7 @@ $(document).ready(function () {
         $("#random-text9").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom9, 2700)
     function gorandom10() {
@@ -104,7 +104,7 @@ $(document).ready(function () {
         $("#random-text10").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom10, 2800)
     function gorandom11() {
@@ -112,7 +112,7 @@ $(document).ready(function () {
         $("#random-text11").text(random_text).css({
             "color": random_color, "left": random_width,
             "top": random_height, "font-size": random_size
-        }).hide().delay(100).show('slow')
+        }).hide().delay(100).show('slow').delay(200).hide('slow')
     };
     setInterval(gorandom11, 2900)
 
