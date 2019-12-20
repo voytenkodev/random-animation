@@ -105,3 +105,19 @@ p {
     z-index: 2;
     opacity: 0.3;
 }
+
+/* SECTION 2 - About me */
+
+section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.right-text{
+    color: black;
+}
+.text-name-sector {
+    color: black;
+    font-size: 4em;
+    font-variant: small-caps;
+    text-align: center;
+}
